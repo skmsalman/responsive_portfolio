@@ -1,0 +1,139 @@
+/* for small device */
+@media screen and (max-width: 576px) {
+  .portfolio_items,
+  .banner,
+  .resume,
+  .portfolio_left_item,
+  .portfolio_right_item,
+  .footer_section {
+    flex-direction: column;
+  }
+  .portfolio_items .item,
+  .resume_left,
+  .resume_right {
+    margin-right: 0 !important;
+    /* margin-bottom: 24px !important; */
+  }
+  .headline p,
+  .resume_left,
+  .resume_right {
+    width: auto !important;
+    text-align: center !important;
+  }
+  .item,
+  .item p {
+    width: auto !important;
+    text-align: center;
+  }
+  .img {
+    margin: 0 auto;
+  }
+  .footer_area {
+    padding: 80px 0 !important;
+  }
+  .footer_left_heading h4,
+  .footer_right_heading h4,
+  .footer_left {
+    text-align: center !important;
+    font-size: 24px;
+  }
+
+  .footer_left,
+  .footer_right,
+  .footer_left p {
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .footer_right {
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+  .primary_button {
+    padding: 9px 12px !important;
+  }
+  .about_section {
+    padding: 10px !important;
+    /* width: auto !important; */
+  }
+  .info.main,
+  .info_item_left,
+  .info_item_right {
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .header_area {
+    background-image: none !important;
+    padding: 0 !important;
+  }
+  .banner,
+  .navigation {
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  .navigation ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .banner {
+    margin-top: 30px !important;
+  }
+  .banner_left .para {
+    width: auto !important;
+    text-align: center !important;
+  }
+  .banner_left h1 {
+    font-size: 2em !important;
+  }
+  .contact {
+    padding: 9px 12px !important;
+  }
+  .content_heading,
+  .content_heading_title {
+    font-size: 16px !important;
+  }
+}
+/* for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .footer_area {
+    padding: 80px 0 !important;
+  }
+  .info.main {
+    flex-direction: column;
+  }
+  .banner,
+  .navigation {
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  .banner {
+    margin-top: 30px !important;
+  }
+  .header_area {
+    background-image: none !important;
+    padding: 0 !important;
+  }
+  .primary_button {
+    padding: 9px 12px !important;
+  }
+  .navigation ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .banner_left .para {
+    text-align: center !important;
+  }
+  .contact {
+    padding: 9px 12px !important;
+  }
+  .content_heading,
+  .content_heading_title {
+    font-size: 16px !important;
+  }
+  .headline p {
+    width: auto !important;
+  }
+}
